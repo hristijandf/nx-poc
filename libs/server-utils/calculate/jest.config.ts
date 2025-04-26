@@ -1,10 +1,10 @@
 export default {
-  displayName: 'math',
-  preset: '../../jest.preset.js',
+  displayName: 'calculate',
+  preset: '../../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/libs/math',
+  coverageDirectory: '../../../coverage/libs/server-utils/calculate',
 };
